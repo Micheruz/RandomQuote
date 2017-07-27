@@ -1,0 +1,70 @@
+body{
+  background-color: #3e2b2b !important;
+}
+.block {
+margin-top: 50px;
+display: block;
+background: white;
+border-radius: 10px;
+padding: 10px 15px;
+}
+
+#tweet {
+  margin: 10px auto;
+  position: relative;
+  display: block;
+}
+
+h3 {
+  padding-left: 15px;
+}
+
+#quote {
+  margin: 50px;
+  display: block;
+  border: 2px solid lightgrey;
+  box-shadow: 5px 5px 10px lightgrey;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+#author {
+  text-align: right;
+  font-weight: bold;
+}
+
+#switch {
+  margin: 10px auto;
+  position: relative;
+  display: block;
+  background: orange;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 58%;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#twitter {
+  margin: 10px auto;
+  position: relative;
+  display: block;
+  background: lightblue;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 58%;
+  color: white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h2, footer {
+  text-align: center;
+}
+footer, footer a {
+  margin-top: 20px;
+  color: #fff;
+}
