@@ -1,5 +1,5 @@
 body {
-  background-color: #3e2b2b !important;
+  background-color: #dcdcdc !important;
 }
 
 .block {
@@ -41,7 +41,7 @@ h3 {
   background: orange;
   padding: 20px;
   border: 2px solid white;
-  border-radius: 58%;
+  border-radius: 15px;
   color: white;
   font-family: monospace;
   font-weight: bold;
@@ -76,4 +76,19 @@ footer, footer a {
     margin: 0;
     width: 100%;
   }
+}
+
+@media (max-width:1024px){
+  .block {
+    margin-top:250px;
+  }
+
+  .block h2 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+  }
+  #quote h3 {
+    font-size: 50px;
+    }
 }
